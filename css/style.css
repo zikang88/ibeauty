@@ -12,6 +12,11 @@ body {
   transition: top 0.3s;
 }
 
+  @media screen and (max-width: 600px) {
+  #myTopnav{
+  position: absolute;
+  }
+}
 .topnav {
   /*overflow: hidden;*/
   background-color: white;
@@ -132,6 +137,19 @@ body {
   border-top-left-radius: 20px;
 }
 
+ @media screen and (max-width: 600px) {
+  .icon-bar {
+  top:60%;
+  }
+
+  .icon-bar i {
+  font-size: 10px;
+}
+
+  .icon-bar a {
+  font-size: 10px;
+}
+
 .headerbelownav{
   /*position: fixed;*/
   margin-top:50px;
@@ -184,12 +202,24 @@ ul.breadcrumb li a:hover {
   text-decoration: underline;
   }
 
+  @media screen and (max-width: 600px) {
+  .address a:not(:first-child){
+  display: none;
+  }
+}
+
 .mySlides {display: none}
 
 img {
   vertical-align: middle;
   max-width: 100%;
   height: 600px;
+}
+
+@media screen and (max-width: 600px) {
+img {
+    height: 300px
+  }
 }
 
 /* Slideshow container */
@@ -274,6 +304,11 @@ img {
   background-color: rgb(158, 80, 71);
 }
 
+@media screen and (max-width: 600px) {
+.carouselbtn{ 
+  top:67%; 
+  }
+}
 /* Fading animation */
 /*.fade {
   -webkit-animation-name: fade;
