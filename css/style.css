@@ -101,6 +101,7 @@ body {
 .topnav a:nth-child(n+3):hover, .active:hover, .dropdown:hover .dropbtn {
   cursor: pointer;
   background-color: rgb(172, 33, 91);
+  text-decoration:none;
   color: white !important;
 }
 
