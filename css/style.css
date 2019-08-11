@@ -227,6 +227,7 @@ img {
   left: 4%;
   top: 50%;
   transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
 #rightArrow {
@@ -234,6 +235,7 @@ img {
   right: 4%;
   top: 50%;
   transform: translate(50%, -50%);
+    cursor: pointer;
 }
 
 .slideshowCircles {
@@ -414,7 +416,7 @@ ul.breadcrumb li a:hover {
 
 @media screen and (max-width: 650px) {
   .grid-container {
-   grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+   grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
   }
 }
 
@@ -508,8 +510,8 @@ ul.breadcrumb li a:hover {
         text-align: center;
     }
     .video iframe{
-    width:400px;
-    height:250px;
+    width:310px;
+    height:20 0px;
     }
 }
 
